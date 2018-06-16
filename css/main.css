@@ -46,12 +46,13 @@ a{ color: white;
 input{
     width: 350px;
     height: 66px;
+    background-color: #F0F0F0;
 }
 
 
 .form{
     float:right;
-
+    box-shadow: 10px 10px grey;
 }
 
 
@@ -113,3 +114,16 @@ footer {
     text-align: center;
     padding-top: 25px;
 }
+
+/*===============================
+        MEDIA QUERIES
+===============================*/
+
+/*screen size no greater than 400px*/
+@media (max-width: 400px) {
+    .nav ul { font-size: 100px; }
+}
+
+
+
+
